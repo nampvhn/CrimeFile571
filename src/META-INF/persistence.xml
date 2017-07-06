@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="CrimeFile571PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>vn.hna.entity.CrimeCriminal</class>
+    <class>vn.hna.entity.Complaints</class>
+    <class>vn.hna.entity.Areas</class>
+    <class>vn.hna.entity.Users</class>
+    <class>vn.hna.entity.Prisoners</class>
+    <class>vn.hna.entity.ComplaintTypes</class>
+    <class>vn.hna.entity.Criminals</class>
+    <class>vn.hna.entity.CaseRecords</class>
+    <class>vn.hna.entity.FIRs</class>
+    <class>vn.hna.entity.Prisons</class>
+    <class>vn.hna.entity.CaseCriminal</class>
+    <class>vn.hna.entity.Complainants</class>
+    <class>vn.hna.entity.Postmortems</class>
+    <class>vn.hna.entity.Victims</class>
+    <class>vn.hna.entity.Roles</class>
+    <class>vn.hna.entity.CrimeTypes</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=CrimeFile571"/>
+      <property name="javax.persistence.jdbc.user" value="lab"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
